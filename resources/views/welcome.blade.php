@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
+@extends('layout')
+@section('title')
+    Home page
+@endsection
 
-<head>
-    <title></title>
-</head>
+@section('content')
 
-<body>
-    <h1>Here we go!!</h1>
+    <h1>My first page!</h1>
 
-    <p>
-        <a href="/contact">Contact</a> us to learn more.
-    </p>
-</body>
-</html>
+@endsection

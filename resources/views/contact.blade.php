@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html>
+@extends('layout')
 
-<head>
-    <title></title>
-</head>
+@section('title')
+    Contact us
+@endsection
+@section('content')
+    <h1>Our contacts</h1>
 
-<body>
-<h1>Contact form!</h1>
-</body>
-</html>
+@endsection
+
