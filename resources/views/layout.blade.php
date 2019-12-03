@@ -13,6 +13,7 @@
     <li><a href="/contact">Contact</a> us to learn more.</li>
     <li><a href="/about">About Us</a></li>
     <li><a href="/info">Information</a></li>
+    <li><a href="/projects">Projects</a></li>
 
 </ul>
 @yield('content')
