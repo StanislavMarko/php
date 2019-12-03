@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <h1>Create a New Project</h1>
+    <h1 class="title">Create a New Project</h1>
 
     <form method="POST" action="/projects">
         {{ csrf_field() }}

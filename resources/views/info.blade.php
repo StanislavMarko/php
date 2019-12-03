@@ -5,6 +5,6 @@
 @endsection
 
 @section('content')
-    <h1>Information</h1>
+    <h1 class="title">Information</h1>
     <p>This  ...</p>
 @endsection

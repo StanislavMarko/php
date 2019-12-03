@@ -4,7 +4,7 @@
     Contact us
 @endsection
 @section('content')
-    <h1>Our contacts</h1>
+    <h1 class="title">Our contacts</h1>
 
 @endsection
 
