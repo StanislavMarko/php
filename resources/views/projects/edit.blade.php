@@ -2,9 +2,9 @@
 
 @section('content')
     <h1 class="title">Edit project</h1>
-    <form method="POST" action="/projects/{{ $project->id }}">
-        {{ method_field('PATCH') }}
-        {{ csrf_field() }}
+    <form method="POST" action="/projects/{{ $project->id }}" style="margin-bottom: 1em;">
+        @method('PATCH')
+        @csrf
 
         <div class="field">
             <label class="label" for="title">Title</label>
@@ -19,6 +19,14 @@
         </div>
 
 
+    </form>
+
+    <form method="POST" action="/projects/{{ $project->id }}">
+        @method('DELETE')
+        @csrf
+        <div class="field">
+            <div class="control"><button type="submit" class="button">Delete Project</button></div>
+        </div>
     </form>
 
 @endsection
