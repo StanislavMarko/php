@@ -18,10 +18,4 @@
         </div>
     @endif
 
-    <style>
-        .myClass {
-            color: #683bff;
-            font-weight: bold;
-        }
-    </style>
 @endsection

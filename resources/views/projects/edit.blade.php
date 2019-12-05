@@ -8,14 +8,14 @@
 
         <div class="field">
             <label class="label" for="title">Title</label>
-            <div class="control"><input type="text" class="input" name="title" placeholder="Title" value="{{ $project->title }}"></div>
+            <div class="control"><input type="text" class="form-control" name="title" placeholder="Title" value="{{ $project->title }}"></div>
         </div>
-        <div class="field">
+        <div class="con">
             <label class="label" for="description">Description</label>
-            <div class="control"><textarea name="description" class="textarea">{{ $project->description }}</textarea></div>
+            <div class="control"><textarea name="description" class="form-control">{{ $project->description }}</textarea></div>
         </div>
-        <div class="field">
-            <div class="control"><button type="submit" class="button is-link">Update project</button></div>
+        <div>
+            <div class="control"><button type="submit" class="btn btn-success">Update project</button></div>
         </div>
 
 
@@ -26,7 +26,7 @@
         @method('DELETE')
         @csrf
         <div class="field">
-            <div class="control"><button type="submit" class="button">Delete Project</button></div>
+            <div class="control"><button type="submit" class="btn btn-danger">Delete Project</button></div>
         </div>
     </form>
 

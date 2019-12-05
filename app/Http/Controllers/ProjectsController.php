@@ -11,25 +11,31 @@ use App\Project;
 
 class ProjectsController extends Controller
 {
-     public function index()
+     public function index(Project $project)
      {
          $projects = Project::all();
 
-         return view('projects.index', compact('projects'));
+         return view('projects.index', compact('project', 'projects'));
      }
 
-     public function create()
+     public function create(Project $project)
      {
-         return view('projects.create');
+         $projects = Project::all();
+         return view('projects.create', compact('project', 'projects'));
      }
      public function show(Project $project)
      {
-         return view('projects.show', compact('project'));
+         $projects = Project::all();
+
+
+         return view('projects.show', compact('project' , 'projects'));
 
      }
      public function edit(Project $project)
+
      {
-         return view('projects.edit', compact('project'));
+         $projects = Project::all();
+         return view('projects.edit', compact('project', 'projects'));
      }
      public function update(Project $project)
      {

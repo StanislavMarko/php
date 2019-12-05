@@ -7,10 +7,10 @@
 
     <h1>My first page!</h1>
 
-    <ul>
+    <ul class="list-group">
         @foreach($tasks as $task)
 
-            <li>{{ $task }}</li>
+            <li class="list-group-item">{{ $task }}</li>
 
         @endforeach
     </ul>
