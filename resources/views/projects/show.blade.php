@@ -10,6 +10,7 @@
         </p>
     </div>
 
+
     @if($project->tasks->count())
         <div>
             @foreach($project->tasks as $task)

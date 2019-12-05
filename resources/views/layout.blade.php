@@ -38,7 +38,7 @@
         </nav>
     </header>
     <article>
-        <nav style="background-color: #6c757d ">
+        <nav style="background-color: rgba(108,117,125,0.65) ">
             <div class="container">
                 <div class="container">@yield('content')</div>
 
