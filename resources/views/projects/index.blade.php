@@ -55,5 +55,17 @@
                 </div>
             @endforeach
         </div>
+        <div class="container">
+            <div class="card-body">
+                <form action="{{ route('importProject') }}" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <input type="file" name="file" class="form-control">
+                    <br>
+                    <button class="btn btn-success">Import Projects Data</button>
+                    <a class="btn btn-warning" href="{{ route('exportProject') }}">Export Projects Data</a>
+                </form>
+                <p></p>
+            </div>
+        </div>
     </div>
 @endsection

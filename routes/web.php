@@ -31,3 +31,9 @@ Route::get('/info', function () {
 });
 
 Route::resource('projects', 'ProjectsController');
+
+Route::get('export', 'MyController@export')->name('export');
+Route::get('importExportView', 'MyController@importExportView');
+Route::post('import', 'MyController@import')->name('import');
+Route::get('exportProject', 'MyController@exportProject')->name('exportProject');
+Route::post('importProject', 'MyController@importProject')->name('importProject');

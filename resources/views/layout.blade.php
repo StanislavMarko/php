@@ -19,6 +19,9 @@
                     <a href="/" class="list-group-item list-group-item-action list-group-item-dark nav-link active">Welcome page</a>>
                 </li>
                 <li class="nav-item">
+                    <a href="/importExportView" class="list-group-item list-group-item-action list-group-item-dark nav-link">Users controll</a>>
+                </li>
+                <li class="nav-item">
                     <a href="/contact" class="list-group-item list-group-item-action list-group-item-dark nav-link">Our contacts</a>
                 </li>
                 <li class="nav-item">
