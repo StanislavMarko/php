@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header >
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <ul class="nav nav-tabs nav-pills">
                 <li class="nav-item">
@@ -39,7 +39,7 @@
         </nav>
     </header>
     <article>
-        <nav style="background-color: rgba(108,117,125,0.65) ">
+        <nav style="background-color: rgba(108,117,125,0.65);height: 100vw">
             <div class="container">
                 <div class="container">@yield('content')</div>
 

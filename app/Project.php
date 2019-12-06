@@ -8,8 +8,10 @@ class Project extends Model
 {
     protected $guarded = [];
 
-    public function tasks()
+
+    public function users()
     {
-        return $this->hasMany(Task::class);
+        return $this->hasMany(UserProject::class);
     }
+
 }

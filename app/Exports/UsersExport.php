@@ -29,6 +29,8 @@ class UsersExport implements FromCollection , WithHeadings
 
             'created_at',
             'updated_at',
+            'age',
+            'project_id',
         ];
     }
 }

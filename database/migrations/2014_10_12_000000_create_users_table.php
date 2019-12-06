@@ -21,16 +21,17 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+
         });
     }
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
-     */
+*
+* @return void
+    */
     public function down()
-    {
-        Schema::dropIfExists('users');
-    }
+{
+    Schema::dropIfExists('users');
+}
 }
